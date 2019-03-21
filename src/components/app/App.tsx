@@ -4,6 +4,9 @@ import { GlobalStyle } from '../../styles/globalStyles';
 import { Wrapper, Header, Link } from './App.css';
 
 class App extends Component {
+  typeScriptFunction = (variable:string) => {
+
+  }
   render() {
     return (
       <Fragment>
@@ -19,7 +22,7 @@ class App extends Component {
           </Header>
         </Wrapper>
       </Fragment>
-    );
+    )
   }
 }
 
