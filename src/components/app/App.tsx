@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
-import { GlobalStyle } from '../../styles/globalstyles';
+import { GlobalStyle } from '../../styles/globalStyles';
 import { Wrapper, Header, Link } from './App.css';
 
 class App extends Component {
